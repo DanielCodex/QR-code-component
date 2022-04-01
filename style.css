@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: #D5E1EF;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 375px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  /* got the box shadow from: https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card__img {
+  /* take the whole container */
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card__title { 
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card__text {
+  font-size: 15px;
+  text-align: center;
+  color: #AAAEB3;
+}
+
